@@ -1,0 +1,14 @@
+.documentation-textfield {
+  width: 280px;
+}
+
+/* .documentation-textarea {
+  width: 1000px;
+} */
+
+.doc-submit-btn-div{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.input {
+  color: #384047;
+  /* background-color: #f3f3f3; */
+  /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset; */
+  border: solid 1px;
+  /* border-radius: 4px; */
+  border-color: hsl(0, 0%, 80%);
+  padding: 6px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+  border-top-style: "none";
+  border-right-style: "none";
+  border-left-style: "none";
+  border-color: #2684FF;
+  /* box-shadow: 0 0 0 1px #2684FF; */
+}
+
+.input:focus:hover {
+  outline: none;
+  border-top-style: "none";
+  border-right-style: "none";
+  border-left-style: "none";
+  border-color: #2684FF;
+  /* box-shadow: 0 0 0 1px #2684FF; */
+}
+
+.input:hover {
+  border: solid 1px;
+  border-top-style: "none";
+  border-right-style: "none";
+  border-left-style: "none";
+  border-color: hsl(4, 100%, 82%);
+  /* box-shadow: 0 0 0 0.05px #384047; */
+}
+
+.label-text-filed {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}

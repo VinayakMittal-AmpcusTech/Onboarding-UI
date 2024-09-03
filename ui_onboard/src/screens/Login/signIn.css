@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.login-container {
+  height: 96vh;
+  display: flex;
+  /* background-color: #384047; */
+  /* -webkit-display: box; */
+  -moz-display: box;
+  -ms-display: flexbox;
+  -webkit-display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 1);
+  background-color: #1f99fa;
+  border-radius: 30px;
+  margin: 0px 50px 0px 50px;
+  /* margin-top: 50px; */
+  padding: 10px 0 20px 0px;
+  /* border: 1px solid; */
+}
+.main-login-container{
+  padding-top:15px
+  /* padding-bottom: 25px; */
+}
+.last-name-text {
+  margin-left: 20px;
+}
+.contact-number {
+  width: 107%;
+}
+.login-container h2 {
+  font-size: 29px;
+  color: #384047;
+  text-align: center;
+  margin-bottom: 1.2em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+.contact-details {
+  margin-top: 4px;
+  margin-bottom: 15px;
+  display: flex;
+  margin-right: 20px;
+}
+.form-container {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 3em;
+  padding-bottom: 3em;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-right: 50px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.form .form-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: -20px;
+}
+.form-heading {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-textfield {
+  margin-bottom: 5px;
+  height: 45px;
+}
+
+.login-with-google {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: none;
+  background-color: transparent;
+  color: black;
+}
+.contact-details {
+  margin-top: 4px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.link-login {
+  text-decoration: none;
+  font-size: small;
+}
+
+.login-with-google {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.goggle-option {
+  display: flex;
+  justify-content: center;
+}
+.login-side-design {
+  display: flex;
+  justify-content: left;
+  background-color: aqua;
+}
+.country-code-text {
+  display: flex;
+  width: 60%;
+}
+.contact-number-text-field {
+  width: 120%;
+}
+.login-link {
+  margin: auto;
+  margin-top: 10px;
+}
+.name-text-field {
+  display: flex;
+  width: 90%;
+}
+.validation-error {
+  font-size: 12px;
+  color: red;
+  word-break: break-all;
+}
+.error-message {
+  font-size: 12px;
+  color: red;
+}
+.sign-up-button {
+  display: flex;
+  margin: auto;
+}
+
+.sign-in-button {
+  display: flex;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 20px;
+  justify-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 90px;
+  margin-top: 40px;
+}
+
+.singlecol {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.social-media-icons-white {
+  color: white;
+  background-color: white;
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+/* Login image added */
+.login-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 80%;
+}
+
+@media screen and (max-width: 565px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .login-image {
+    transform: scale(0.5);
+  }
+  .form {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .login-container {
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+  }
+
+  .login-image {
+    display: none;
+  }
+  .form {
+    padding: 0;
+    width: 90vw !important;
+  }
+
+  .sign-in-textfield {
+    width: 70vw !important;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .form-check-input {
+    width: 70vw;
+    margin: auto;
+  }
+
+  .form-check-label {
+    width: fit-content;
+    margin: auto;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 100px;
+  }
+  .header {
+    font-family: "Roboto", sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+  }
+}
