@@ -1,0 +1,103 @@
+.bgCheck-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+  overflow-y: scroll;
+  height: 55vh;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.BGC-TextField {
+  gap: 50px;
+  width: 500px;
+  justify-content: center;
+}
+.BGC-dropdwon {
+  /* padding-top: -15px; */
+  margin: auto;
+  justify-content: center;
+}
+.dropDownSize {
+  width: 10px;
+}
+.btn-add {
+  /* width: 60px; */
+  width: fit-content;
+  padding-top: 30px;
+  /* padding-left: 10px; */
+  padding-bottom: 20px;
+  display: flex;
+  gap: 5px;
+  /* height: 40px; */
+}
+.btn-size {
+  height: 40px;
+  width: 50px;
+  color: white;
+}
+.Submit-btn {
+  width: 100px;
+  color: white;
+}
+
+.cancel-button {
+  /* margin-left: 80px; */
+  width: 80px;
+  height: 40px;
+  color: white;
+}
+
+.text-label {
+  align-items: start;
+}
+
+.bgCheck-textfield {
+  width: 280px;
+}
+
+.bgCheck-textarea {
+  width: 1000px;
+}
+
+.bgCheck-textarea-div {
+  margin: auto;
+}
+
+.rate-revision-child {
+  width: 30 0px;
+}
+.BGC_Text-area {
+  /* width: 300px; */
+}
+.Submit-btn {
+  width: 15%;
+  justify-content: center;
+  margin-left: 85%;
+  margin-top: 20px;
+}
+.add-cancel-1 {
+  margin: auto;
+  width:210%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 5px;
+  /* border: 1px solid; */
+}
+.add-cancel-2 {
+  margin: auto;
+  width:195%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 5px;
+  /* border: 1px solid; */
+}
+.submit-btn {
+  height: 40px;
+  width: 150px;
+  color: white;
+}
